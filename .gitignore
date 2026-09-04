@@ -1,0 +1,40 @@
+# Dependencies & Build (Node / React)
+node_modules/
+dist/
+dist-ssr/
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java / Maven (Server)
+**/target/
+target/
+*.class
+localsync-server/localsync.db*
+*.db
+*.db-shm
+*.db-wal
+
+# Android & Gradle
+.gradle/
+**/build/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+.vscode/
+
+# Build artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Stray / Temp files
+.FullName/
+Thumbs.db
+.DS_Store
