@@ -4,6 +4,13 @@ A secure personal storage bridge allowing laptops and mobile devices to access a
 
 ---
 
+## 📱 Android App Download
+
+Get the ready-to-install Android client for your mobile device:
+- 📲 **[Download BoltShare APK (Google Drive)](https://drive.google.com/file/d/1IW9jBKmvUcv0AczU7Vs7JTRqjc2z4sk5/view?usp=sharing)**
+
+---
+
 ## 🌟 Key Features
 
 1. **Persistent Device Pairing**:
@@ -26,6 +33,7 @@ A secure personal storage bridge allowing laptops and mobile devices to access a
 
 ## 📁 Project Structure
 
+- `localsync-android/`: Native Android app (Kotlin + Jetpack Compose + Material3 + CameraX).
 - `localsync-server/`: Java 21 + Spring Boot 3 + SQLite backend.
 - `localsync-ui/`: React + Vite frontend with minimal White & Slate design system.
 - `start-localsync.bat`: One-click startup script for Windows.
